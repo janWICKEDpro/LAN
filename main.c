@@ -180,7 +180,7 @@ void receiveMessage(int id)
         printf("Receive failed\n");
         exit(1);
     }
-    puts("\n~~~ Received message: ");
+    puts("\nReceived message: ");
     puts(buffer);
 }
 
